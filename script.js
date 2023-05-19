@@ -1,19 +1,30 @@
 
 
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 
-const nameList = [];
+let userNumber = parseInt(prompt('Insert a number'));
 
-let sum = 0;
+while( randomNumber !== userNumber){
 
-while( sum < 50 ){
+    if( randomNumber > userNumber ){
 
-    let userNumber = parseInt(prompt('Insert a number'));
+        console.log('the number that you will find is greater');
+        
+        parseInt(prompt('Insert a number'));
 
-    nameList.push(userNumber);
+    }else if( randomNumber < userNumber ) {
 
-    sum =+;
+        console.log('the number that you will find is minor');
 
-};
+        parseInt(prompt('Insert a number'));
+
+    }
+
+}
+
+alert('HAI INDOVINATO');
 
 
-console.log(nameList);
+
+
+
