@@ -1,0 +1,17 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.owned{
+    text-decoration: line-through;
+}
