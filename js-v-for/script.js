@@ -7,7 +7,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            message: 'Hello World',
+            numbers : ['1','2','3','4','5','6','7','8','9','10'],
         }
     },
 

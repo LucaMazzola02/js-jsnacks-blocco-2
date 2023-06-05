@@ -13,12 +13,26 @@
         
         <script src="https://unpkg.com/vue@3"></script>
 
-        
+        <div id="app">
+            
         <div class="text-center text-yellow">
 
                 <p v-for="n in 4">{{ n }}</p>
 
         </div>
+
+        <div class="m-auto w-70">
+            <ul>
+                <li v-for="(number) in numbers">
+                    <span>{{ number }}</span>
+                </li>
+            </ul>
+        </div>
+
+        </div>
+
+        
+        
        
 
         <script src="script.js"></script>
