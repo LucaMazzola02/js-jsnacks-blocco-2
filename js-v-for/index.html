@@ -15,25 +15,25 @@
 
         <div id="app">
             
-        <div class="text-center text-yellow">
+        <div class="text-center text-yellow mb-5">
 
-                <p v-for="n in 4">{{ n }}</p>
+               <ul>
+                   <li v-for="item in partecipants">
+                       {{ item.name}}
+                   </li>
+               </ul>
 
         </div>
 
-        <div class="m-auto w-70">
+        <div class="m-auto w-70 border border-black">
             <ul>
-                <li v-for="(number) in numbers">
-                    <span>{{ number }}</span>
+                <li v-for="number in 10">
+                    {{ number }}
                 </li>
             </ul>
         </div>
 
         </div>
-
-        
-        
-       
 
         <script src="script.js"></script>
     </body>

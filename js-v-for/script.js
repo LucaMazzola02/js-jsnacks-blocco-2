@@ -7,7 +7,24 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            numbers : ['1','2','3','4','5','6','7','8','9','10'],
+            partecipants : [
+                {
+                    name : 'Ginetta',
+                    role: 'Software Developer',
+                    experience : 5
+                },
+                {
+                    name : 'Ginetto',
+                    role: 'Designer',
+                    experience : 2
+                },
+                {
+                    name : 'Lorenzina',
+                    role: 'Junior Software Developer',
+                    experience : 1
+                },
+
+            ],
         }
     },
 
